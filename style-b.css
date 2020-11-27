@@ -1,0 +1,166 @@
+body{
+  /* background-color:#3b3b3b; */
+  margin: 0 0 0 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #eaeaea;
+}
+h1{
+  font-weight: bolder;
+}
+.navigation{
+  background-color: #222222;
+  color:white;
+  text-align: right;
+  word-spacing: 5rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+}
+.nav-1{
+  position: relative;
+  margin-right: 22%;
+}
+.nav{
+  color: white;
+  text-decoration:none;
+
+}
+.nav:hover{
+  color: #cbf1f5;
+}
+/*---------------------------------------------Top-container-------------------------------------------------------*/
+.top-container{
+  height:30rem;
+  /* background-color: red; */
+  margin: 1.25rem 1.25rem 1.25rem 1.25rem;
+  background-image:url("Background-top.jpg");
+  background-size: contain;
+  background-position: center center;
+  padding-top: 10rem;
+}
+
+.content{
+  background-color:hsla(40,100%,25%,0.7);
+  filter:sepia(100%);
+  line-height: 2;
+  text-align: center;
+  color: white;
+  margin-left:8rem;
+  margin-right: 8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height:20rem;
+}
+/*---------------------------------------------Middle-container-------------------------------------------------------*/
+.middle-container{
+  height:37.5rem;
+  background-color: white;
+  margin: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+.anchor-text{
+  text-decoration: none;
+  color:black;
+}
+.anchor-text:hover{
+  text-decoration: none;
+  background-color: black;
+  color: black;
+}
+
+
+.blog-1{
+  position: relative;
+  margin-left: 6.25rem;
+  background-color: green;
+  height: 25rem;
+  width:18.75rem;
+  top: 3.75rem;
+  display: inline-block;
+  background-image: url("draupadi.jpg");
+  background-size: cover;
+
+}
+.blog-2{
+  position: relative;
+  margin-left: 5rem;
+  background-color: green;
+  height: 25rem;
+  width:18.75rem;
+  top:6.25rem;
+  display: inline-block;
+  background-image:url("coffee.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.blog-3{
+  position: relative;
+  margin-left: 5rem;
+  background-image:url("To kill a mockingbird.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25rem;
+  width:18.75rem;
+  top: 3.75rem;
+  display: inline-block;
+}
+.heading{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 1rem;
+  color: black;
+}
+
+.blog-1:hover{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 1rem;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s ease;
+}
+.blog-2:hover{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 1rem;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s ease;
+
+}
+.blog-3:hover{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 1rem;
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s ease;
+
+}
+
+
+/*---------------------------------------------Bottom-container-------------------------------------------------------*/
+.bottom-container{
+  height:200px;
+  background-color: #3d3d3d;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.bottom-content{
+  color:white;
+  text-align: center;
+  padding-top: 5rem;
+}
+/*---------------------------------------------Footer-------------------------------------------------------*/
+.footer{
+  word-spacing: 50px;
+  background-color: #141414;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 0;
+}
+.copy{
+  word-spacing: 2px;
+  color: #a6e3e9;
+}
