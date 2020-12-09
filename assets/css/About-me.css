@@ -1,0 +1,119 @@
+body {
+  /* background-color:#3b3b3b; */
+  margin: 0 0 0 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #eaeaea;
+}
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 1rem;
+}
+.navigation {
+  background-color: #222222;
+  color: white;
+  text-align: right;
+  word-spacing: 5rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+}
+.nav {
+  color: white;
+  text-decoration: none;
+}
+.nav:hover {
+  color: #cbf1f5;
+}
+/*---------------------------------------------my_section-------------------------------------------------------*/
+.my_section {
+  height: 40rem;
+  background-color: white;
+  margin: 1.25rem 1.25rem 1.25rem 1.25rem;
+  background-image: url("/assets/img/cup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-block {
+  position: relative;
+  display: inline-block;
+  top: 1.75rem;
+  left: 15%;
+  height: 500px;
+  width: 20%;
+  float: left;
+}
+.content {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  /* background-color: green; */
+  top: 3rem;
+  display: inline-block;
+  left: 20%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Lora", serif;
+  color: white;
+  line-height: 1.5;
+}
+.a {
+  text-align: justify;
+}
+.my_image {
+  position: relative;
+  width: 300px;
+  height: auto;
+}
+
+/*---------------------------------------------Skills-------------------------------------------------------*/
+.skills {
+  height: 41rem;
+  background-color: black;
+  margin: 1.25rem 1.25rem 1.25rem 1.25rem;
+  color: white;
+}
+.left {
+  position: relative;
+  margin-left: 30%;
+  margin-right: 10%;
+  top: 2.5rem;
+  bottom: 5rem;
+  display: inline-block;
+}
+.right {
+  position: relative;
+  margin-left: 10%;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+}
+.slot-1 {
+  height: 200px;
+  width: auto;
+}
+.slot-2 {
+  height: 100px;
+}
+ul {
+  line-height: 200%;
+}
+/*---------------------------------------------Photograph-space-------------------------------------------------------*/
+.Photograph {
+  height: 37.5rem;
+  background-color: white;
+  margin: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+/*---------------------------------------------Footer-------------------------------------------------------*/
+.footer {
+  word-spacing: 50px;
+  background-color: #141414;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 0;
+}
+.copy {
+  word-spacing: 2px;
+  color: #a6e3e9;
+}
