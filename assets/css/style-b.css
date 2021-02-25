@@ -32,7 +32,7 @@ h1 {
   height: 30rem;
   /* background-color: red; */
   margin: 1.25rem 1.25rem 1.25rem 1.25rem;
-  background-image: url("/assets/img/Background-top.jpg");
+  background-image: url("../assets/img/Background-top.jpg");
   background-size: contain;
   background-position: center center;
   padding-top: 10rem;
@@ -74,7 +74,7 @@ h1 {
   width: 18.75rem;
   top: 3.75rem;
   display: inline-block;
-  background-image: url("/assets/img/draupadi.jpg");
+  background-image: url("../assets/img/draupadi.jpg");
   background-size: cover;
 }
 .blog-2 {
@@ -85,14 +85,14 @@ h1 {
   width: 18.75rem;
   top: 6.25rem;
   display: inline-block;
-  background-image: url("/assets/img/coffee.jpg");
+  background-image: url("../assets/img/coffee.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 .blog-3 {
   position: relative;
   margin-left: 5rem;
-  background-image: url("/assets/img/To kill a mockingbird.jpg");
+  background-image: url("../assets/img/To kill a mockingbird.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 25rem;
